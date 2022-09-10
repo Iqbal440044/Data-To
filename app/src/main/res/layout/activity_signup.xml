@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#03A9F4"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter is your name"
+                android:textColorHint="@color/white"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/edit_email_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter is your email id"
+                android:textColorHint="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+
+            <EditText
+                android:id="@+id/edit_password_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter is your password"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_signUp_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="Sign Up"
+                android:backgroundTint="#FFEB3B"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
